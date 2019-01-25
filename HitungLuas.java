@@ -32,6 +32,20 @@ public class HitungLuas {
 
         System.out.println("Luas persegi panjang adalah: " + luas);
         System.out.println("");
+    }
+
+    public static void luasLingkaran() {
+        double jari2;
+        double luas;
+        Scanner masukkan = new Scanner(System.in);
+        
+        System.out.print("Masukan jari-jari: ");
+        jari2 = masukkan.nextInt();
+
+        luas = 2 * jari2 * 3.14;
+
+        System.out.print("Luas lingkaran adalah " + luas);
+        System.out.println("");
     } 
     
     public static void main(String[] args) {
